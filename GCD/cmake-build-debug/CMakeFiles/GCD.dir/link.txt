@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/GCD.dir/main.c.o  -o GCD 

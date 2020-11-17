@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/QuadraticFormula.dir/main.c.o CMakeFiles/QuadraticFormula.dir/abc.c.o  -o QuadraticFormula  -lm 

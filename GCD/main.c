@@ -21,15 +21,15 @@ int gcd (int p, int q) {
 
 int main() {
     /* Variables */
-    int p=6;
-    int q=15;
+    int p, q;
+    int divider;
 
-    /* Input
-     * The scanf function is not working for some random reason ask TA */
+    /* Input */
+    scanf("%d %d", &p, &q);
 
     /* Processing */
-    int divider = gcd(p, q);
-    printf("The GCD is %d\n", divider);
+    divider = gcd(p, q);
+    printf("%d\n", divider);
 
     return 0;
 }

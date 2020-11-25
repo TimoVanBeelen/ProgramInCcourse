@@ -9,8 +9,9 @@
 
 int main() {
     /* Variables */
-    int number;
-    int result = 1;
+    int number, i;
+    int result;
+    result = 1;
 
     /* Input */
     scanf("%d", &number);
@@ -19,7 +20,6 @@ int main() {
     if (number < 2) {
         result =0;
     } else {
-        int i;
         for (i =2; i<=sqrt(number); i++) {
             if (number%i != 0) {
                 continue;

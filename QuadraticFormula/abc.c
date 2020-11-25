@@ -19,9 +19,7 @@ void abc (double initA, double initB, double initC) {
     c = initC;
     /* Variables */
     double d;
-    //d = calculate_discriminant(a, b, c);
-    d = (b*b)-4*a*c;
-    printf("%.1f", a);
+    d = calculate_discriminant(a, b, c);
     /* Processing */
     if (d > 0) {
         /* Calculate the two real roots */
@@ -39,7 +37,7 @@ void abc (double initA, double initB, double initC) {
         im1 = (-d/(2*a));
         re2 = (-b/(2*a));
         im2 = (-d/(2*a));
-        printf("Root 1: %.1fi + %.1fi, root 2: %.1f - %.1fi", re1, im1, re2, im2);
+        printf("Root 1: %.1f + %.1fi, root 2: %.1f - %.1fi", re1, im1, re2, im2);
     }
     else {
         /* Calculate only (real) root */

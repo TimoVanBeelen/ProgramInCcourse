@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/timo/CLionProjects/QuadraticFormula/main.c
+/home/timo/CLionProjects/QuadraticFormula/abc.c
 stdio.h
 -
 math.h
 -
+
+/home/timo/CLionProjects/QuadraticFormula/abc.h
+
+/home/timo/CLionProjects/QuadraticFormula/main.c
+stdio.h
+-
+abc.h
+/home/timo/CLionProjects/QuadraticFormula/abc.h
 

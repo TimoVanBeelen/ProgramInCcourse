@@ -14,12 +14,14 @@ double calculate_discriminant (double k, double l, double m) {
 }
 
 void abc (double initA, double initB, double initC) {
+    /* Variables */
+    double d;
+
     a = initA;
     b = initB;
     c = initC;
-    /* Variables */
-    double d;
     d = calculate_discriminant(a, b, c);
+
     /* Processing */
     if (d > 0) {
         /* Calculate the two real roots */

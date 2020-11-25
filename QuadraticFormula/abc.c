@@ -28,7 +28,7 @@ void abc (double initA, double initB, double initC) {
         double r1, r2;
         r1 = (-b+sqrt(d))/(2*a);
         r2 = (-b-sqrt(d))/(2*a);
-        printf("Root 1: %.1f, root 2: %.1f", r1, r2);
+        printf("Root 1: %.1f, root 2: %.1f\n", r1, r2);
     }
     else if (d < 0) {
         /* Calculate the two imaginary roots */
@@ -39,12 +39,12 @@ void abc (double initA, double initB, double initC) {
         im1 = (-d/(2*a));
         re2 = (-b/(2*a));
         im2 = (-d/(2*a));
-        printf("Root 1: %.1f + %.1fi, root 2: %.1f - %.1fi", re1, im1, re2, im2);
+        printf("Root 1: %.1f + %.1fi, root 2: %.1f - %.1fi\n", re1, im1, re2, im2);
     }
     else {
         /* Calculate only (real) root */
         double r1;
         r1 = (-b/(2*a));
-        printf("The root is: %.1f", r1);
+        printf("The root is: %.1f\n", r1);
     }
 }

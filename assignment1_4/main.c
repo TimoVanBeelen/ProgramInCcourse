@@ -5,8 +5,7 @@
  */
 
 #include <stdio.h>
-
-double pow(double r, int n);
+#include <math.h>
 
 int main() {
     // Variables
@@ -14,7 +13,6 @@ int main() {
     double a, r, S;
 
     // Input
-    printf("Give the multiplier a, number of repetitions N and exp base r for sum a*r^n");
     scanf("%lf %d %lf", &a, &N, &r);
 
     // Calculation
@@ -27,14 +25,4 @@ int main() {
     printf("%.2f", S);
 
     return 0;
-}
-
-double pow(double r, int n) {
-    int N;
-    double ans=1;
-
-    for (N=0; N<n; N++) {
-        ans *= r;
-    }
-    return ans;
 }
